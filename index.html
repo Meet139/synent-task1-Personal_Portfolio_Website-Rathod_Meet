@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meet Rathod - Web Developer Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Welcome Modal -->
+    <div class="welcome-modal" id="welcomeModal">
+        <div class="welcome-content">
+            <h2 class="welcome-title">Welcome to Meet Rathod's Portfolio</h2>
+            <p class="welcome-message">Discover my journey as a Web Developer and Computer Engineering Student. Explore my skills, projects, and experiences in creating modern web solutions.</p>
+            <div class="welcome-buttons">
+                <button class="welcome-btn enter-btn" onclick="enterWebsite()">Enter Website</button>
+                <button class="welcome-btn exit-btn" onclick="exitWebsite()">Exit</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+               <i class='fas fa-user-circle' style='font-size:36px'> my Portfolio</i>
+               
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="hero" id="home">
+        <div class="hero-content">
+            <h1>Meet Rathod</h1>
+            <div class="title">Web Developer | Computer Engineering Student</div>
+            <p class="tagline">Building modern and user-friendly web experiences with passion and precision</p>
+            <a href="#contact" class="btn">Get In Touch</a>
+        </div>
+    </div>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <h2 class="section-title animate-up">About Me</h2>
+            <div class="glass-card animate-up">
+                <div class="about-content">
+                    <h3>My Journey</h3>
+                    <p>I am a dedicated and intelligent Computer Engineering student with strong problem-solving skills and adaptability to new technologies. I have experience working both independently and in teams, always striving for excellence in every project I undertake.</p>
+                    
+                    <p>As a passionate web developer, I focus on creating responsive and user-friendly applications that deliver exceptional user experiences. My approach combines technical expertise with creative thinking to build solutions that truly make a difference. I am committed to continuous learning and staying updated with the latest industry trends and technologies.</p>
+                    
+                    <div class="about-highlights">
+                        <div class="highlight-item animate-left">
+                            <i class="fas fa-lightbulb highlight-icon"></i>
+                            <h4>Innovative Solutions</h4>
+                            Creating cutting-edge solutions with modern technologies
+                        </div>
+                        <div class="highlight-item animate-right">
+                            <i class="fas fa-users highlight-icon"></i>
+                            <h4>Team Collaboration</h4>
+                            Experienced in collaborative environments and teamwork
+                        </div>
+                        <div class="highlight-item animate-left">
+                            <i class="fas fa-rocket highlight-icon"></i>
+                            <h4>Rapid Learning</h4>
+                            Quickly adapting to new technologies and frameworks
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+  
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <div class="container">
+            <h2 class="section-title animate-up">Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-item animate-right">
+                    <i class="fab fa-html5 skill-icon" style="color: #e34f26;"></i>
+                    <h3>HTML</h3>
+                </div>
+                <div class="skill-item animate-right">
+                    <i class="fab fa-css3-alt skill-icon" style="color: #1572b6;"></i>
+                    <h3>CSS</h3>
+                </div>
+                <div class="skill-item animate-left">
+                    <i class="fab fa-js skill-icon" style="color: #f7df1e;"></i>
+                    <h3>JavaScript</h3>
+                </div>
+                <div class="skill-item animate-right">
+                    <i class="fab fa-php skill-icon" style="color: #777bb4;"></i>
+                    <h3>PHP</h3>
+                </div>
+                <div class="skill-item animate-left">
+                    <i class="fab fa-laravel skill-icon" style="color: #ff2d20;"></i>
+                    <h3>Laravel</h3>
+                </div>
+                <div class="skill-item animate-right">
+                    <i class="fas fa-database skill-icon" style="color: #4479a1;"></i>
+                    <h3>MySQL</h3>
+                </div>
+                <div class="skill-item animate-left">
+                    <i class="fab fa-python skill-icon" style="color: #3776ab;"></i>
+                    <h3>Python</h3>
+                </div>
+                <div class="skill-item animate-right">
+                    <i class="fab fa-java skill-icon" style="color: #007396;"></i>
+                    <h3>Java</h3>
+                </div>
+                <div class="skill-item animate-left">
+                    <i class="fas fa-network-wired skill-icon" style="color: #2ecc71;"></i>
+                    <h3>Networking</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience">
+        <div class="container">
+            <h2 class="section-title animate-up">Experience</h2>
+            <div class="experience-grid">
+                <div class="experience-item animate-left">
+                    <h3>Laravel Intern at Avadh Web</h3>
+                    <p>6 weeks | Hands-on experience with Laravel framework and full-stack web development projects</p>
+                </div>
+                <div class="experience-item animate-right">
+                    <h3>Hardware Experience at Spectra Computers</h3>
+                    <p>15 days | Practical experience in computer hardware assembly, networking, and system maintenance</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <h2 class="section-title animate-up">Contact</h2>
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <div class="contact-item animate-left">
+                        <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+                        <div>
+                            <strong>Email</strong><br>
+                            <a href="mailto:rmeet2425@gmail.com" style="color: #e0e0e0; text-decoration: none;">rmeet2425@gmail.com</a>
+                        </div>
+                    </div>
+                    <div class="contact-item animate-right">
+                        <div class="contact-icon"><i class="fas fa-phone"></i></div>
+                        <div>
+                            <strong>Phone</strong><br>
+                            <a href="tel:9328921721" style="color: #e0e0e0; text-decoration: none;">+91 9328921721</a>
+                        </div>
+                    </div>
+                    <div class="contact-item animate-left">
+                        <div class="contact-icon"><i class="fas fa-map-marker-alt"></i></div>
+                        <div>
+                            <strong>Location</strong><br>
+                            <span>Junagadh, Gujarat, India</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form glass-card animate-right">
+                    <form>
+                        <div class="form-group">
+                            <input type="text" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea rows="5" placeholder="Your Message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>© 2026 Meet Rathod | All Rights Reserved</p>
+        </div>
+    </footer>
+<script src="script.js"></script>
+   
+</body>
+</html>
